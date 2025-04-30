@@ -46,7 +46,7 @@ header {
   left: 0;
   z-index: 100;
   display: flex;
-  justify-content: center; /* Changed from space-between to center */
+  justify-content: center;
   align-items: center;
   padding: 0 30px;
 }
@@ -54,63 +54,54 @@ header {
 .logo {
   width: 270px;
   height: 61px;
-  background: url("../images/logo.png") no-repeat center center;
+  background: url("../images/logo.png") no-repeat left center;
   background-size: contain;
-  position: absolute; /* Added to position the logo */
-  left: 30px; /* Added to maintain the logo's position */
+  position: absolute;
+  left: 30px;
 }
 
 /* Search bar */
 .search-container {
   width: 824px;
   height: 50px;
-  position: relative;
-  /* The search container is now centered because the header uses justify-content: center */
 }
 
 .search-bar {
   width: 100%;
-  height: 46px;
+  height: 48px;
   display: flex;
   align-items: center;
-  gap: 10px; /* Added gap to create consistent spacing between input and button */
+  gap: 10px;
 }
 
 .search-bar input {
-  width: calc(100% - 58px); /* Adjusted to account for the gap */
+  width: calc(100% - 58px);
   height: 46px;
-  background: rgba(241,241,241,1);
-  border: 1px solid rgba(30,30,30,1);
+  background: #F1F1F1;
+  border: 1px solid #1E1E1E;
   border-radius: 40px;
   padding: 0 15px;
   font-size: 15px;
-  color: #1E1E1E;
-}
-
-.search-bar input::placeholder {
-  color: rgba(206,206,206,1);
 }
 
 .search-button {
   width: 48px;
-  height: 50px;
-  background: #FFFFFF;
+  height: 48px;
   border: 1px solid #1E1E1E;
   border-radius: 50px;
-  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Removed negative margin-left: -5px; */
 }
 
 .search-icon {
-  width: 21px;
-  height: 22px;
-  background: rgba(255,186,0,1);
+  width: 20px;
+  height: 20px;
   border: 3px solid #1E1E1E;
   border-radius: 50%;
   position: relative;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .search-icon::after {
@@ -124,6 +115,41 @@ header {
   right: -5px;
 }
 
+/* Header Actions */
+.header-actions {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.user-button, .cart-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  background: #B83F3F;
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* Main content */
 main {
   margin-top: 100px;
@@ -229,8 +255,8 @@ main {
 .contact-button {
   width: 197px;
   height: 61px;
-  background: rgba(217,217,217,1);
-  border: 5px solid rgba(184,63,63,1);
+  background: rgb(255, 255, 255);
+  border: 2px solid #000000;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -242,11 +268,17 @@ main {
 .contact-button span {
   font-size: 28px;
   font-weight: 500;
-  color: #F2E6F4;
+  color: #000000;
+  transition: color 0.3s ease; /* Add transition for text color */
 }
 
 .contact-button:hover {
-  background: rgba(184,63,63,1);
+  background: #000000;
+  border-color: #ffffff;
+}
+
+.contact-button:hover span {
+  color: #ffffff; /* Change text color on hover */
 }
 /* Products Section */
 .products {
@@ -277,7 +309,7 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 36px;
+  gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -297,8 +329,8 @@ main {
 }
 
 .product-image {
-  width: 206px;
-  height: 206px;
+  width: 204px;
+  height: 204px;
   margin: 1px;
   background-color: #FFFFFF;
   background-repeat: no-repeat;
