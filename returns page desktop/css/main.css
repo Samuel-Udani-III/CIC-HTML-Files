@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+/* Header Styles */
+header {
+  background: #fff;
+  border-bottom: 1px solid #1e1e1e;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px auto;
+  max-width: 824px;
+}
+
+.search-form input {
+  background: #f1f1f1;
+  border: 1px solid #1e1e1e;
+  border-radius: 40px;
+  color: #cecece;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 15px;
+  width: 819px;
+}
+
+.search-form button {
+  background: #fff;
+  border: 1px solid #1e1e1e;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 50px;
+  margin-left: 10px;
+  width: 48px;
+}
+
+/* Main Content Styles */
+main {
+  margin-top: 82px;
+  padding: 20px;
+}
+
+.refunds-returns-section {
+  padding: 0 110px;
+  margin-bottom: 50px;
+}
+
+.refunds-returns-section h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.refunds-returns-section p {
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.returns-policy {
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  max-width: 461px;
+  text-align: left;
+  margin: 0 0 50px 861px;
+}
+
+.returns-policy h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.order-history-section {
+  margin-bottom: 50px;
+  padding: 0 110px;
+}
+
+.order-history-section h2 {
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.order-history-section table {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 721px;
+  background: #fff;
+}
+
+.order-history-section th,
+.order-history-section td {
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  text-align: left;
+}
+
+.order-history-section th {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.order-history-section td {
+  font-size: 9px;
+  font-weight: normal;
+}
+
+.order-history-section button {
+  background: #b83f3f;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: normal;
+  padding: 8px;
+  width: 114px;
+}
+
+.newsletter-section {
+  background: #1e1e1e;
+  border: 1px solid #000;
+  color: #fff;
+  padding: 45px 60px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.newsletter-section h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.newsletter-section p {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  max-width: 585px;
+}
+
+.newsletter-section form {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter-section label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.newsletter-section input {
+  background: #fff;
+  border-radius: 20px;
+  color: #cacaca;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 10px;
+  width: 939px;
+}
+
+.newsletter-section button {
+  background: #b83f3f;
+  border-radius: 10px;
+  color: #f4f4f4;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: normal;
+  padding: 10px;
+  width: 157px;
+}
+
+.about-section {
+  margin-bottom: 50px;
+  padding: 0 167px;
+}
+
+.about-section h2 {
+  color: #1e1e1e;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 691px;
+}
+
+.contact-section {
+  margin-bottom: 50px;
+  padding: 0 167px;
+}
+
+.contact-section h2 {
+  color: #1e1e1e;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.contact-options {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-option {
+  background: #d9d9d9;
+  border: 5px solid #cacaca;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 157px;
+}
+
+.contact-option span {
+  color: #cacaca;
+  font-size: 28px;
+  font-weight: 500;
+}
