@@ -1,0 +1,366 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  background: #fff;
+}
+
+/* Header */
+.search-bar {
+  width: 100%;
+  height: 82px;
+  background: #fff;
+  border: 1px solid #1E1E1E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.search-bar input {
+  width: 819px;
+  height: 46px;
+  background: #F1F1F1;
+  border: 1px solid #1E1E1E;
+  border-radius: 40px;
+  padding-left: 12px;
+  font-family: Inter;
+  font-size: 15px;
+  color: #CECECE;
+}
+
+.search-bar .search-icon {
+  width: 48px;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #1E1E1E;
+  border-radius: 50px;
+  position: absolute;
+  right: 36px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar .search-icon::before {
+  content: '';
+  width: 21px;
+  height: 22px;
+  background: #FFBA00;
+  border: 3px solid #F4F4F4;
+  border-radius: 50px;
+}
+
+/* About Us Section */
+.about-us {
+  max-width: 1200px;
+  margin: 122px auto 0;
+  padding: 0 103px;
+}
+
+.about-us h1 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 132px;
+  text-align: center;
+}
+
+.about-us .mission {
+  margin-bottom: 865px;
+}
+
+.about-us .mission h2,
+.about-us .vision h2,
+.about-us .values h2 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 76px;
+}
+
+.about-us .mission p,
+.about-us .vision p,
+.about-us .values p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+}
+
+.about-us .vision {
+  margin-bottom: 905px;
+}
+
+.about-us .values {
+  margin-bottom: 739px;
+}
+
+/* Contact Section */
+.contact {
+  max-width: 1200px;
+  margin: 2729px auto 0;
+  padding: 0 14px;
+}
+
+.contact .contact-info {
+  width: 100%;
+  background: #D9D9D9;
+  border: 1px solid #B1B1B1;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+}
+
+.contact .contact-info h2 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 116px;
+}
+
+.contact .contact-info p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+  width: 601px;
+  margin: 0 auto 126px;
+}
+
+.contact .contact-info button {
+  width: 305px;
+  height: 102px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 30px;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Newsletter Section */
+.newsletter {
+  width: 100%;
+  height: 270px;
+  background: #1E1E1E;
+  border: 1px solid #000;
+  padding: 45px 60px;
+  margin-top: 3392px;
+}
+
+.newsletter h2 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.newsletter form {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter label {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 12px;
+}
+
+.newsletter input {
+  width: 939px;
+  height: 40px;
+  background: #fff;
+  border-radius: 20px;
+  border: none;
+  padding-left: 11px;
+  font-family: Inter;
+  font-size: 20px;
+  color: #CACACA;
+  margin-right: 16px;
+}
+
+.newsletter button {
+  width: 157px;
+  height: 51px;
+  background: #B83F3F;
+  border-radius: 10px;
+  border: none;
+  color: #F4F4F4;
+  font-family: Inter;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #fff;
+  padding: 30px 0;
+  margin-top: 4351px;
+  border: 1px solid #000;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.about-us-footer {
+  margin-left: 168px;
+  margin-top: 42px;
+}
+
+.about-us-footer h3 {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 50px;
+  color: #F2E6F4;
+  margin-bottom: 10px;
+}
+
+.about-us-footer p {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 15px;
+  color: #A6A6A6;
+  width: 691px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 100px;
+  margin-top: 30px;
+}
+
+.footer-links div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links h3 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1E1E1E;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  font-family: Inter;
+  font-size: 16px;
+  color: #1E1E1E;
+  text-decoration: none;
+}
+
+.contact-info {
+  position: absolute;
+  top: 272px;
+  left: 13px;
+}
+
+.contact-info p {
+  font-family: Inter;
+  font-size: 20px;
+  color: #1E1E1E;
+  margin: 0 0 5px;
+}
+
+.contact-info a {
+  color: #1E1E1E;
+  text-decoration: none;
+}
+
+.call-us {
+  position: absolute;
+  top: 94px;
+  left: 835px;
+}
+
+.call-us button {
+  width: 155px;
+  height: 47px;
+  background: #D9D9D9;
+  border: 5px solid #CACACA;
+  border-radius: 10px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 28px;
+  color: #CACACA;
+  cursor: pointer;
+}
+
+.social-media {
+  position: absolute;
+  top: 337px;
+  left: 1133px;
+}
+
+.social-media p {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1E1E1E;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons .icon {
+  width: 50px;
+  height: 50px;
+  background: #B83F3F;
+}
+
+.footer-bottom {
+  background: #B83F3F;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 449px;
+  border: 1px solid #000;
+}
+
+.footer-bottom p {
+  font-family: Inter;
+  font-size: 20px;
+  color: #1E1E1E;
+  margin: 0;
+}
