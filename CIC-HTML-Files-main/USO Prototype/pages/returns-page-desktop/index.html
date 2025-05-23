@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <title>USO Deals - Support</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="images/USO_LOGO_1.png" alt="USO Logo" width="270px" height="61px">
+        </div>
+        <div class="search-container">
+          <div class="search-bar">
+            <input type="text" placeholder="Search for..">
+            <button type="submit" class="search-button">
+              <span class="search-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button class="user-button" aria-label="User account">
+            <svg class="user-icon" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#1E1E1E" d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/>
+            </svg>
+          </button>
+          <button class="cart-button" aria-label="Shopping cart" id="cartButton">
+            <svg class="cart-icon" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#1E1E1E" d="M17 18a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.8 1.03H8.1l-.9 1.63-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1V2m6 16a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7 2.78-5H6.14l2.36 5H16z"/>
+            </svg>
+            <span class="cart-count" id="cartCounter">0</span>
+          </button>
+        </div>
+    </header>
+    <nav class="sub-header">
+        <div class="sub-header-content">
+            <a href="../../index.html">Home</a>
+            <a href="../shop-page-desktop/index.html">Shop</a>
+            <a href="../wishlist-page/index.html">Wishlist</a>
+            <a href="../support-page/index.html">Support</a>
+            <a href="../FAQ-page/index.html">FAQ</a>
+            <a href="../Promotional-page-desktop/index.html">Promotional</a>
+            <a href="../returns-page-desktop/index.html">Returns</a>
+        </div>
+</nav>
+
+    <main>
+        <section class="refunds-returns-section">
+            <h2>Refunds & Returns</h2>
+            <p>We want you to be happy with your purchase! If you're not fully satisfied, we offer a hassle-free return and refund process. Please read the following guidelines:</p>
+            <div class="returns-policy">
+                <h3>Returns:</h3>
+                <p><strong>Eligibility:</strong> You can return items within 30 days of receiving your order.</p>
+                <p><strong>Condition:</strong> Items must be unused, unopened, and in their original packaging.</p>
+                <p><strong>Non-returnable items:</strong> Sale items, gift cards, and personalized products cannot be returned.</p>
+
+                <h3>How to Initiate a Return:</h3>
+                <p>Contact our customer support team at support@yourstore.com to request a return.</p>
+                <p>Provide your order number and the item(s) you wish to return.</p>
+                <p>We will send you instructions for returning the product.</p>
+
+                <h3>Refunds:</h3>
+                <p><strong>Processing Time:</strong> Refunds will be processed within 7-10 business days after we receive the returned item.</p>
+                <p><strong>Method of Refund:</strong> Refunds will be issued to the original payment method.</p>
+                <p><strong>Shipping Costs:</strong> Customers are responsible for return shipping costs unless the item is defective or damaged.</p>
+
+                <h3>Damaged or Defective Items:</h3>
+                <p>If you received a damaged or defective item, please contact us immediately at support@yourstore.com with your order number and photos of the damage. We will cover return shipping costs and send a replacement or issue a refund.</p>
+
+                <h3>Exchanges:</h3>
+                <p>We do not offer direct exchanges, but you may return the item and place a new order for the desired product.</p>
+                <p>For any questions, please feel free to contact us at support@yourstore.com.</p>
+            </div>
+        </section>
+
+        <section class="order-history-section">
+            <h2>Placed Orders History</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Items</th>
+                        <th>Date of Delivery</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item Name</td>
+                        <td>Insert Date here</td>
+                        <td>Price here</td>
+                        <td><button>Request Refund</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="about-us" id="about">
+            <h2>About Us</h2>
+            <p>
+                USO Readymade Garments LLC is an enterprise that supplies good and safe quality
+                products for export, import and local sector. USO is committed to keep the client at
+                competitive edge by consistently providing superior value and competitive Pricing.
+            </p>
+            <div class="help-section">
+                <h3>Want Help?</h3>
+                <div class="contact-button">
+                    <span>Call Us</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Sign Up for Newsletter</h2>
+            <p>for more news about our latest products, offers and more!</p>
+            <form>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="nameexample@email.com">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>
+                    PO BOX 392598<br>
+                    Dubai, United Arab Emirates<br>
+                    Tel: +9714 367 4556<br>
+                    Mob: +97156 212 3360<br>
+                    Email: info@usodeals.com<br>
+                    Website: www.usodeals.com
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Sell on USO Deals</a></li>
+                    <li><a href="#">Delivery Status</a></li>
+                    <li><a href="#">Privacy Settings</a></li>
+                    <li><a href="#">Your Wishlist</a></li>
+                    <li><a href="#">Live Chat</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="#">Storefront</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Bestsellers</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Your Cart</a></li>
+                    <li><a href="#">Your Wishlist</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>@2018 - 2025, www.usodeals.com, All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

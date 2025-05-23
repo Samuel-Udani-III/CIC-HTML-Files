@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/cart.css" rel="stylesheet">
+    <title>USO Deals - Cart</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="images/USO_LOGO_1.png" alt="USO Logo" width="270px" height="61px">
+        </div>
+        <div class="search-container">
+          <div class="search-bar">
+            <input type="text" placeholder="Search for..">
+            <button type="submit" class="search-button">
+              <span class="search-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button class="user-button" aria-label="User account">
+            <svg class="user-icon" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#1E1E1E" d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/>
+            </svg>
+          </button>
+          <button class="cart-button" aria-label="Shopping cart" id="cartButton">
+            <svg class="cart-icon" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#1E1E1E" d="M17 18a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.8 1.03H8.1l-.9 1.63-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1V2m6 16a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7 2.78-5H6.14l2.36 5H16z"/>
+            </svg>
+            <span class="cart-count" id="cartCounter">0</span>
+          </button>
+        </div>
+    </header>
+    <nav class="sub-header">
+        <div class="sub-header-content">
+            <a href="../../index.html">Home</a>
+            <a href="../shop-page-desktop/index.html">Shop</a>
+            <a href="../wishlist-page/index.html">Wishlist</a>
+            <a href="../support-page/index.html">Support</a>
+            <a href="../FAQ-page/index.html">FAQ</a>
+            <a href="../Promotional-page-desktop/index.html">Promotional</a>
+            <a href="../returns-page-desktop/index.html">Returns</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="cart">
+        <section class="cart-items">
+            <table>
+                <thead>
+                    <tr>
+                        <th>PRODUCT</th>
+                        <th>PRICE</th>
+                        <th>QTY</th>
+                        <th>UNIT PRICE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="product-cell">
+                                <button class="remove-btn">×</button>
+                                <img src="images/product1.jpg" alt="Heat Press Tool" class="product-image">
+                            </div>
+                        </td>
+                        <td class="price-cell">150 AED</td>
+                        <td>
+                            <div class="quantity-controls">
+                                <button class="quantity-btn decrease">−</button>
+                                <span class="quantity-value">1</span>
+                                <button class="quantity-btn increase">+</button>
+                            </div>
+                        </td>
+                        <td class="price-cell">150 AED</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="product-cell">
+                                <button class="remove-btn">×</button>
+                                <img src="images/product2.jpg" alt="Color Bottles" class="product-image">
+                            </div>
+                        </td>
+                        <td class="price-cell">50 AED</td>
+                        <td>
+                            <div class="quantity-controls">
+                                <button class="quantity-btn decrease">−</button>
+                                <span class="quantity-value">1</span>
+                                <button class="quantity-btn increase">+</button>
+                            </div>
+                        </td>
+                        <td class="price-cell">50 AED</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+        <section class="about-us" id="about">
+            <h2>About Us</h2>
+            <p>
+                USO Readymade Garments LLC is an enterprise that supplies good and safe quality
+                products for export, import and local sector. USO is committed to keep the client at
+                competitive edge by consistently providing superior value and competitive Pricing.
+            </p>
+            <div class="help-section">
+                <h3>Want Help?</h3>
+                <div class="contact-button">
+                    <span>Call Us</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Sign Up for Newsletter</h2>
+            <p>for more news about our latest products, offers and more!</p>
+            <form>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="nameexample@email.com">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>
+                    PO BOX 392598<br>
+                    Dubai, United Arab Emirates<br>
+                    Tel: +9714 367 4556<br>
+                    Mob: +97156 212 3360<br>
+                    Email: info@usodeals.com<br>
+                    Website: www.usodeals.com
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Sell on USO Deals</a></li>
+                    <li><a href="#">Delivery Status</a></li>
+                    <li><a href="#">Privacy Settings</a></li>
+                    <li><a href="#">Your Wishlist</a></li>
+                    <li><a href="#">Live Chat</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="#">Storefront</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Bestsellers</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Your Cart</a></li>
+                    <li><a href="#">Your Wishlist</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Company FAQs</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Community</h3>
+                <ul>
+                    <li><a href="#">USO Deal's Communities</a></li>
+                    <li><a href="#">Announcements</a></li>
+                </ul>
+                <h3>Social Media Pages</h3>
+                <div class="social-icons">
+                <a href="#" class="social-icon facebook" aria-label="Facebook">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M18 2h-3c-1.3 0-2.4.5-3.3 1.4-.9.9-1.4 2-1.4 3.3v3H7v4h3v8h4v-8h3l1-4h-4V7c0-.3.1-.5.3-.7.2-.2.4-.3.7-.3h3V2z" fill="#000"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon twitter" aria-label="Twitter">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M22 5.9c-.7.3-1.5.5-2.3.6.8-.5 1.4-1.2 1.7-2-.7.4-1.5.7-2.4.9-.7-.7-1.6-1.1-2.6-1.1-2 0-3.6 1.6-3.6 3.6 0 .3 0 .5.1.8-3-.2-5.7-1.6-7.5-3.8-.3.5-.5 1.1-.5 1.7 0 1.2.6 2.3 1.6 3-.6 0-1.1-.2-1.6-.4v.1c0 1.7 1.2 3.2 2.9 3.5-.3.1-.6.1-1 .1-.2 0-.5 0-.7-.1.5 1.5 1.9 2.6 3.6 2.6-1.3 1-3 1.6-4.8 1.6-.3 0-.6 0-1-.1 1.7 1.1 3.7 1.7 5.8 1.7 7 0 10.8-5.8 10.8-10.8 0-.2 0-.3 0-.5.7-.5 1.4-1.2 1.9-2z" fill="#000"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon instagram" aria-label="Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.75 2C4.57436 2 2 4.57436 2 7.75V16.25C2 19.4256 4.57436 22 7.75 22H16.25C19.4256 22 22 19.4256 22 16.25V7.75C22 4.57436 19.4256 2 16.25 2H7.75ZM12 7.25C14.6234 7.25 16.75 9.37665 16.75 12C16.75 14.6234 14.6234 16.75 12 16.75C9.37665 16.75 7.25 14.6234 7.25 12C7.25 9.37665 9.37665 7.25 12 7.25ZM18 6.5C18.5523 6.5 19 6.94772 19 7.5C19 8.05228 18.5523 8.5 18 8.5C17.4477 8.5 17 8.05228 17 7.5C17 6.94772 17.4477 6.5 18 6.5Z" fill="#000000"/>
+                      </svg>
+                      
+                </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2018 - 2025, www.usodeals.com, All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Cart functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const cartItems = document.querySelector('.cart-items');
+            
+            // Handle quantity changes
+            cartItems.addEventListener('click', function(e) {
+                if (e.target.classList.contains('quantity-btn')) {
+                    const quantityControl = e.target.closest('.quantity-controls');
+                    const quantityValue = quantityControl.querySelector('.quantity-value');
+                    let quantity = parseInt(quantityValue.textContent);
+                    
+                    if (e.target.classList.contains('increase')) {
+                        quantity++;
+                    } else if (e.target.classList.contains('decrease') && quantity > 1) {
+                        quantity--;
+                    }
+                    
+                    quantityValue.textContent = quantity;
+                    updateCartTotal();
+                }
+                
+                // Handle remove button
+                if (e.target.classList.contains('remove-btn')) {
+                    const row = e.target.closest('tr');
+                    row.remove();
+                    updateCartTotal();
+                }
+            });
+            
+            // Update cart total
+            function updateCartTotal() {
+                let total = 0;
+                document.querySelectorAll('tbody tr').forEach(row => {
+                    const price = parseFloat(row.querySelector('.price-cell').textContent);
+                    const quantity = parseInt(row.querySelector('.quantity-value').textContent);
+                    total += price * quantity;
+                });
+                
+                // Update cart counter in header
+                const cartCounter = document.getElementById('cartCounter');
+                const itemCount = document.querySelectorAll('tbody tr').length;
+                cartCounter.textContent = itemCount;
+                cartCounter.style.display = itemCount > 0 ? 'flex' : 'none';
+            }
+            
+            // Initialize
+            updateCartTotal();
+        });
+    </script>
+</body>
+</html>

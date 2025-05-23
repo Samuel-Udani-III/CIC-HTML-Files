@@ -1,0 +1,76 @@
+/* Cart Page Styles */
+.cart {
+    max-width: 1200px;
+    margin: 120px auto 40px;
+    padding: 0 20px;
+}
+
+.cart-items table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-items th {
+    text-align: left;
+    padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
+    font-weight: 500;
+    color: #333;
+}
+
+.cart-items td {
+    padding: 20px 10px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.product-cell {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.remove-btn {
+    color: #ff0000;
+    font-size: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.product-image {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #666;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.quantity-value {
+    font-size: 16px;
+    color: #333;
+    min-width: 20px;
+    text-align: center;
+}
+
+.price-cell {
+    font-size: 16px;
+    color: #333;
+    white-space: nowrap;
+} 
